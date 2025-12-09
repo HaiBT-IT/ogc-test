@@ -1,2 +1,13 @@
-npm init -y
-npm install express
+{
+  "name": "ecs-node-api",
+  "version": "1.0.0",
+  "description": "Sample Node.js API running on ECS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
